@@ -44,6 +44,7 @@ export declare type Colors = {
     dropdown: string;
     dropdownDeep: string;
     invertedContrast: string;
+    oneColor: string;
     input: string;
     inputSecondary: string;
     background: string;
