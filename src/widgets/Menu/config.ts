@@ -143,31 +143,31 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/mochiswap",
   },
   {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
-        href: "https://t.me/pancakeswap",
+        label: "MochiSwap",
+        href: "https://t.me/mochiswap",
       },
       {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/PancakeSwapIndonesia",
+        label: "ONEMOON",
+        href: "https://t.me/mochiswaponemoon",
       },
     ],
   },
   {
-    label: "Twitter",
+    label: "Git",
     icon: "GitIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://github.com/mochiswap",
   },
   {
-    label: "Twitter",
+    label: "Medium",
     icon: "MediumIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://mochiswap.medium.com",
   },
 ];
 

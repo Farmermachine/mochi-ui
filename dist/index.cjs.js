@@ -3517,31 +3517,31 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://twitter.com/mochiswap",
     },
     {
         label: "Telegram",
         icon: "TelegramIcon",
         items: [
             {
-                label: "English",
-                href: "https://t.me/pancakeswap",
+                label: "MochiSwap",
+                href: "https://t.me/mochiswap",
             },
             {
-                label: "Bahasa Indonesia",
-                href: "https://t.me/PancakeSwapIndonesia",
+                label: "ONEMOON",
+                href: "https://t.me/mochiswaponemoon",
             },
         ],
     },
     {
-        label: "Twitter",
+        label: "Git",
         icon: "GitIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://github.com/mochiswap",
     },
     {
-        label: "Twitter",
+        label: "Medium",
         icon: "MediumIcon",
-        href: "https://twitter.com/pancakeswap",
+        href: "https://mochiswap.medium.com",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3688,7 +3688,7 @@ var ThemeSwitcher = function (_a) {
 var ThemeSwitcher$1 = React__default['default'].memo(ThemeSwitcher, function (prev, next) { return prev.isDark === next.isDark; });
 
 var Icons = IconModule;
-var SocialLinks = function () { return (React__default['default'].createElement(Flex, null, socials.map(function (social, index) {
+var SocialLinks = function () { return (React__default['default'].createElement(Flex, { marginLeft: "20px" }, socials.map(function (social, index) {
     var Icon = Icons[social.icon];
     var iconProps = { width: "26px", color: "oneColor", style: { cursor: "pointer" } };
     var mr = index < socials.length - 1 ? "24px" : 0;
