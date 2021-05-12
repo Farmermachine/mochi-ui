@@ -10,6 +10,8 @@ export { default as LogoIcon } from "./Logo";
 export { default as MoonIcon } from "./Moon";
 export { default as MoreIcon } from "./More";
 export { default as NftIcon } from "./Nft";
+export { default as Git } from "./Git";
+export { default as Medium } from "./Medium";
 export { default as PoolIcon } from "./Pool";
 export { default as PredictionsIcon } from "./Predictions";
 export { default as SunIcon } from "./Sun";
