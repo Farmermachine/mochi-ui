@@ -3528,7 +3528,7 @@ var MenuEntry = styled.div(templateObject_3$2 || (templateObject_3$2 = __makeTem
     return (secondary ? "0 32px" : "0 16px");
 }, function (_a) {
     var secondary = _a.secondary;
-    return (secondary ? "17px" : "17px");
+    return (secondary ? "16px" : "17px");
 }, function (_a) {
     var secondary = _a.secondary, theme = _a.theme;
     return (secondary ? theme.colors.background : "transparent");
@@ -3657,7 +3657,7 @@ var ThemeSwitcher = function (_a) {
 var ThemeSwitcher$1 = React.memo(ThemeSwitcher, function (prev, next) { return prev.isDark === next.isDark; });
 
 var Icons = IconModule;
-var SocialLinks = function () { return (React.createElement(Flex, { marginLeft: "20px" }, socials.map(function (social, index) {
+var SocialLinks = function () { return (React.createElement(Flex, { marginLeft: "10px" }, socials.map(function (social, index) {
     var Icon = Icons[social.icon];
     var iconProps = { width: "26px", color: "oneColor", style: { cursor: "pointer" } };
     var mr = index < socials.length - 1 ? "24px" : 0;

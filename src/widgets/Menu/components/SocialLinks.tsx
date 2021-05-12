@@ -9,7 +9,7 @@ import { socials } from "../config";
 const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
 
 const SocialLinks: React.FC = () => (
-  <Flex marginLeft="20px">
+  <Flex marginLeft="10px">
     {socials.map((social, index) => {
       const Icon = Icons[social.icon];
       const iconProps = { width: "26px", color: "oneColor", style: { cursor: "pointer" } };
