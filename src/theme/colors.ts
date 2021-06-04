@@ -50,7 +50,7 @@ export const lightColors: Colors = {
   secondary: "#9A6AFF",
   background: "#000000",
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "#000000",
+  backgroundAlt: "#eee7fa",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
