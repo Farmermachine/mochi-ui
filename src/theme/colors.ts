@@ -15,7 +15,7 @@ export const additionalColors = {
   overlay: "#452a7a",
 };
 
-export const darkColors: Colors = {
+export const lightColors: Colors = {
   ...baseColors,
   ...additionalColors,
   background: "#FAF9FA",
@@ -44,7 +44,7 @@ export const darkColors: Colors = {
   },
 };
 
-export const lightColors: Colors = {
+export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#9A6AFF",
